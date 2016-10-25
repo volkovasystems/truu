@@ -1,5 +1,6 @@
 {
   "name": "truu",
+  "version": "0.0.0",
   "description": "Check if entity is truthy or non-empty.",
   "main": "truu.js",
   "authors": [
