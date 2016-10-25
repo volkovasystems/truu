@@ -1,0 +1,75 @@
+{
+  "name": "truu",
+  "version": "0.0.0",
+  "dependencies": {
+    "doubt": {
+      "version": "0.0.6",
+      "from": "doubt@latest",
+      "resolved": "https://registry.npmjs.org/doubt/-/doubt-0.0.6.tgz"
+    },
+    "filled": {
+      "version": "0.0.3",
+      "from": "filled@latest",
+      "resolved": "https://registry.npmjs.org/filled/-/filled-0.0.3.tgz",
+      "dependencies": {
+        "doubt": {
+          "version": "0.0.6",
+          "from": "doubt@latest",
+          "resolved": "https://registry.npmjs.org/doubt/-/doubt-0.0.6.tgz"
+        },
+        "harden": {
+          "version": "0.3.5",
+          "from": "harden@>=0.3.5 <0.4.0",
+          "resolved": "https://registry.npmjs.org/harden/-/harden-0.3.5.tgz"
+        },
+        "raze": {
+          "version": "0.0.8",
+          "from": "raze@0.0.8",
+          "resolved": "https://registry.npmjs.org/raze/-/raze-0.0.8.tgz"
+        },
+        "truly": {
+          "version": "0.0.1",
+          "from": "truly@latest",
+          "resolved": "https://registry.npmjs.org/truly/-/truly-0.0.1.tgz"
+        }
+      }
+    },
+    "harden": {
+      "version": "0.3.5",
+      "from": "harden@>=0.3.5 <0.4.0",
+      "resolved": "https://registry.npmjs.org/harden/-/harden-0.3.5.tgz"
+    },
+    "raze": {
+      "version": "0.0.8",
+      "from": "raze@0.0.8",
+      "resolved": "https://registry.npmjs.org/raze/-/raze-0.0.8.tgz"
+    },
+    "stuffed": {
+      "version": "0.0.1",
+      "from": "stuffed@latest",
+      "resolved": "https://registry.npmjs.org/stuffed/-/stuffed-0.0.1.tgz",
+      "dependencies": {
+        "doubt": {
+          "version": "0.0.6",
+          "from": "doubt@latest",
+          "resolved": "https://registry.npmjs.org/doubt/-/doubt-0.0.6.tgz"
+        },
+        "harden": {
+          "version": "0.3.5",
+          "from": "harden@>=0.3.5 <0.4.0",
+          "resolved": "https://registry.npmjs.org/harden/-/harden-0.3.5.tgz"
+        },
+        "raze": {
+          "version": "0.0.8",
+          "from": "raze@0.0.8",
+          "resolved": "https://registry.npmjs.org/raze/-/raze-0.0.8.tgz"
+        }
+      }
+    },
+    "truly": {
+      "version": "0.0.1",
+      "from": "truly@latest",
+      "resolved": "https://registry.npmjs.org/truly/-/truly-0.0.1.tgz"
+    }
+  }
+}

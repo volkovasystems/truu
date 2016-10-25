@@ -1,0 +1,32 @@
+{
+  "name": "truu",
+  "version": "0.0.0",
+  "description": "Check if entity is truthy or non-empty.",
+  "main": "truu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/truu.git"
+  },
+  "keywords": [
+    "check",
+    "entity",
+    "truthy",
+    "non-empty",
+    "truu"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/truu/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/truu#readme",
+  "dependencies": {
+    "doubt": "0.0.6",
+    "filled": "0.0.3",
+    "stuffed": "0.0.1",
+    "truly": "0.0.1"
+  }
+}

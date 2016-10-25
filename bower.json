@@ -1,0 +1,30 @@
+{
+  "name": "truu",
+  "description": "Check if entity is truthy or non-empty.",
+  "main": "truu.js",
+  "authors": [
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "check",
+    "entity",
+    "truthy",
+    "non-empty",
+    "truu"
+  ],
+  "homepage": "https://github.com/volkovasystems/truu",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "doubt": "^0.0.6",
+    "filled": "^0.0.3",
+    "stuffed": "^0.0.1",
+    "truly": "^0.0.1"
+  }
+}
