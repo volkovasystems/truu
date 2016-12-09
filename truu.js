@@ -34,6 +34,9 @@
 			"file": "truu.js",
 			"module": "truu",
 			"author": "Richeve S. Bebedor",
+			"contributors": [
+				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
+			],
 			"eMail": "richeve.bebedor@gmail.com",
 			"repository": "https://github.com/volkovasystems/truu.git",
 			"test": "truu-test.js",
@@ -49,44 +52,20 @@
 		{
 			"doubt": "doubt",
 			"filled": "filled",
+			"protype": "protype",
 			"stuffed": "stuffed",
 			"truly": "truly"
 		}
 	@end-include
 */
 
-if( typeof window == "undefined" ){
-	var doubt = require( "doubt" );
-	var filled = require( "filled" );
-	var stuffed = require( "stuffed" );
-	var truly = require( "truly" );
-}
+const doubt = require( "doubt" );
+const filled = require( "filled" );
+const protype = require( "protype" );
+const stuffed = require( "stuffed" );
+const truly = require( "truly" );
 
-if( typeof window != "undefined" &&
-	!( "doubt" in window ) )
-{
-	throw new Error( "doubt is not defined" );
-}
-
-if( typeof window != "undefined" &&
-	!( "filled" in window ) )
-{
-	throw new Error( "filled is not defined" );
-}
-
-if( typeof window != "undefined" &&
-	!( "stuffed" in window ) )
-{
-	throw new Error( "stuffed is not defined" );
-}
-
-if( typeof window != "undefined" &&
-	!( "truly" in window ) )
-{
-	throw new Error( "truly is not defined" );
-}
-
-var truu = function truu( entity ){
+const truu = function truu( entity ){
 	/*;
 		@meta-configuration:
 			{
@@ -99,13 +78,11 @@ var truu = function truu( entity ){
 		return filled( entity );
 	}
 
-	if( typeof entity == "object" ){
+	if( protype( entity, OBJECT ) ){
 		return stuffed( entity );
 	}
 
 	return truly( entity );
 };
 
-if( typeof module != "undefined" ){
-	module.exports = truu;
-}
+module.exports = truu;
