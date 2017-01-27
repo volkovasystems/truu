@@ -74,7 +74,7 @@ const truu = function truu( entity ){
 		@end-meta-configuration
 	*/
 
-	if( doubt( entity ).AS_ARRAY ){
+	if( doubt( entity, AS_ARRAY ) ){
 		return filled( entity );
 	}
 
