@@ -1012,15 +1012,16 @@ domain-browser@^1.1.1:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.1.7.tgz#867aa4b093faa05f1de08c06f4d7b21fdf8698bc"
 
-doubt@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/doubt/-/doubt-0.13.0.tgz#c55344ebc081005c10308a214b3d60d53e9484f6"
+doubt@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/doubt/-/doubt-0.14.0.tgz#0196e55ab36ebd6c855812551b9188a5debeaecc"
   dependencies:
     babel-runtime "^6.22.0"
     cemento "^0.8.0"
     circular-json "^0.3.1"
     falzy "^0.11.0"
     harden "^0.14.0"
+    kount "^0.7.0"
     protype "^0.15.0"
 
 ecc-jsbn@~0.1.1:
@@ -1128,13 +1129,13 @@ fill-range@^2.1.0:
     repeat-element "^1.1.2"
     repeat-string "^1.5.2"
 
-filled@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/filled/-/filled-0.7.0.tgz#7aad58140f6c0a2d1ad4e47e04949afbb782edf7"
+filled@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/filled/-/filled-0.8.0.tgz#aeb062866c9ce8b4218983357eebe4a372dcb57c"
   dependencies:
     babel-runtime "^6.22.0"
-    doubt "^0.13.0"
-    raze "^0.15.0"
+    doubt "^0.14.0"
+    raze "^0.16.0"
     truly "^0.11.0"
 
 find-up@^1.0.0:
@@ -1948,12 +1949,12 @@ randombytes@^2.0.0, randombytes@^2.0.1:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.0.3.tgz#674c99760901c3c4112771a31e521dc349cc09ec"
 
-raze@^0.15.0:
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/raze/-/raze-0.15.0.tgz#ed25ca4dbfd022e2827d298edcdbd41c40bd8819"
+raze@^0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/raze/-/raze-0.16.0.tgz#89c986ea43c4714669719b9dd93b2d2b2a2f414b"
   dependencies:
     babel-runtime "^6.22.0"
-    doubt "^0.13.0"
+    doubt "^0.14.0"
     harden "^0.14.0"
 
 rc@~1.1.6:
@@ -2259,12 +2260,12 @@ strip-json-comments@~1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-1.0.4.tgz#1e15fbcac97d3ee99bf2d73b4c656b082bbafb91"
 
-stuffed@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/stuffed/-/stuffed-0.8.0.tgz#b4607a4a6250015fca7f31741f57d7d75f050581"
+stuffed@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/stuffed/-/stuffed-0.9.0.tgz#46a9e213878bf68057fa9fb9bb26716a0dd3256f"
   dependencies:
     babel-runtime "^6.22.0"
-    doubt "^0.13.0"
+    doubt "^0.14.0"
     kount "^0.7.0"
     protype "^0.15.0"
     truly "^0.11.0"
