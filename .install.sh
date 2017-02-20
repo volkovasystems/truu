@@ -20,4 +20,5 @@ filled \
 protype \
 stuffed \
 truly \
---save
+--save \
+--force-latest
