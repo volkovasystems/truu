@@ -1,6 +1,6 @@
 {
   "name": "truu",
-  "version": "0.14.0",
+  "version": "0.15.0",
   "description": "Check if entity is truthy or non-empty.",
   "main": "truu.deploy.js",
   "support": "truu.support.js",
@@ -24,14 +24,11 @@
     "test",
     "tests"
   ],
-  "resolutions": {
-    "doubt": "^0.18.0"
-  },
   "dependencies": {
-    "doubt": "^0.18.0",
-    "filled": "^0.11.0",
-    "protype": "^0.17.0",
-    "stuffed": "^0.13.0",
-    "truly": "^0.13.0"
+    "doubt": "^0.19.0",
+    "filled": "^0.12.0",
+    "protype": "^0.18.0",
+    "stuffed": "^0.14.0",
+    "truly": "^0.14.0"
   }
 }
