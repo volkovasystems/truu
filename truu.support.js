@@ -34,10 +34,11 @@
               			"file": "truu.js",
               			"module": "truu",
               			"author": "Richeve S. Bebedor",
-              			"contributors": [
-              				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
-              			],
               			"eMail": "richeve.bebedor@gmail.com",
+              			"contributors": [
+              				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+              				"Vinse Vinalon <vinsevinalon@gmail.com>"
+              			],
               			"repository": "https://github.com/volkovasystems/truu.git",
               			"test": "truu-test.js",
               			"global": true
@@ -52,16 +53,14 @@
               		{
               			"doubt": "doubt",
               			"filled": "filled",
-              			"protype": "protype",
               			"stuffed": "stuffed",
               			"truly": "truly"
               		}
               	@end-include
-              */
+              */var _typeof2 = require("babel-runtime/helpers/typeof");var _typeof3 = _interopRequireDefault(_typeof2);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 var doubt = require("doubt");
 var filled = require("filled");
-var protype = require("protype");
 var stuffed = require("stuffed");
 var truly = require("truly");
 
@@ -78,7 +77,7 @@ var truu = function truu(entity) {
 		return filled(entity);
 	}
 
-	if (protype(entity, OBJECT)) {
+	if ((typeof entity === "undefined" ? "undefined" : (0, _typeof3.default)(entity)) == "object") {
 		return stuffed(entity);
 	}
 

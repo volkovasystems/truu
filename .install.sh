@@ -2,7 +2,6 @@ yarn add \
 babel-runtime \
 doubt \
 filled \
-protype \
 stuffed \
 truly \
 --save && \
@@ -17,7 +16,6 @@ webpack \
 bower install \
 doubt \
 filled \
-protype \
 stuffed \
 truly \
 --save \
