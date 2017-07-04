@@ -34,10 +34,11 @@
 			"file": "truu.js",
 			"module": "truu",
 			"author": "Richeve S. Bebedor",
-			"contributors": [
-				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
-			],
 			"eMail": "richeve.bebedor@gmail.com",
+			"contributors": [
+				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+				"Vinse Vinalon <vinsevinalon@gmail.com>"
+			],
 			"repository": "https://github.com/volkovasystems/truu.git",
 			"test": "truu-test.js",
 			"global": true
@@ -52,7 +53,6 @@
 		{
 			"doubt": "doubt",
 			"filled": "filled",
-			"protype": "protype",
 			"stuffed": "stuffed",
 			"truly": "truly"
 		}
@@ -61,7 +61,6 @@
 
 const doubt = require( "doubt" );
 const filled = require( "filled" );
-const protype = require( "protype" );
 const stuffed = require( "stuffed" );
 const truly = require( "truly" );
 
@@ -78,7 +77,7 @@ const truu = function truu( entity ){
 		return filled( entity );
 	}
 
-	if( protype( entity, OBJECT ) ){
+	if( typeof entity == "object" ){
 		return stuffed( entity );
 	}
 
