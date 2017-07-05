@@ -78,15 +78,15 @@ are-we-there-yet@~1.1.2:
     delegates "^1.0.0"
     readable-stream "^2.0.6"
 
-arkount@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/arkount/-/arkount-0.9.0.tgz#612ce23e82dc019b63e48889be670d2ed1d09b33"
+arkount@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/arkount/-/arkount-0.10.0.tgz#2755509f36b963d558d1f9d60338412d69a40825"
   dependencies:
     babel-runtime "^6.23.0"
-    doubt "^0.28.0"
-    raze "^0.31.0"
+    doubt "^0.29.0"
+    raze "^0.32.0"
     truly "^0.19.0"
-    wichevr "^0.11.0"
+    wichevr "^0.12.0"
 
 arr-diff@^2.0.0:
   version "2.0.0"
@@ -1031,9 +1031,9 @@ domain-browser@^1.1.1:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.1.7.tgz#867aa4b093faa05f1de08c06f4d7b21fdf8698bc"
 
-doubt@^0.28.0:
-  version "0.28.0"
-  resolved "https://registry.yarnpkg.com/doubt/-/doubt-0.28.0.tgz#2b8b0aa9f75142f8633c43a2f3072a93a9f81c55"
+doubt@^0.29.0:
+  version "0.29.0"
+  resolved "https://registry.yarnpkg.com/doubt/-/doubt-0.29.0.tgz#fba144c6c6eec11f86fb74df715db8d84700c984"
   dependencies:
     babel-runtime "^6.23.0"
     cemento "^0.16.0"
@@ -1042,7 +1042,6 @@ doubt@^0.28.0:
     harden "^0.22.0"
     khount "^0.1.0"
     protype "^0.22.0"
-    stringe "^0.4.0"
     truly "^0.19.0"
 
 ecc-jsbn@~0.1.1:
@@ -1235,13 +1234,13 @@ fill-range@^2.1.0:
     repeat-element "^1.1.2"
     repeat-string "^1.5.2"
 
-filled@^0.23.0:
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/filled/-/filled-0.23.0.tgz#b8e8aacc460e2d4261d846ea36349e174ab00344"
+filled@^0.24.0:
+  version "0.24.0"
+  resolved "https://registry.yarnpkg.com/filled/-/filled-0.24.0.tgz#426a8b028f3da3324accd4a1f39a7e625138aea2"
   dependencies:
-    arkount "^0.9.0"
+    arkount "^0.10.0"
     babel-runtime "^6.23.0"
-    doubt "^0.28.0"
+    doubt "^0.29.0"
 
 find-up@^1.0.0:
   version "1.1.2"
@@ -2079,12 +2078,12 @@ randombytes@^2.0.0, randombytes@^2.0.1:
   dependencies:
     safe-buffer "^5.1.0"
 
-raze@^0.31.0:
-  version "0.31.0"
-  resolved "https://registry.yarnpkg.com/raze/-/raze-0.31.0.tgz#9b8a17d6b1d34d616e784d2b9670570e6c0e6c6d"
+raze@^0.32.0:
+  version "0.32.0"
+  resolved "https://registry.yarnpkg.com/raze/-/raze-0.32.0.tgz#9d63d905e40f319e54dc7a4e7853e5cb2aeddbc1"
   dependencies:
     babel-runtime "^6.23.0"
-    doubt "^0.28.0"
+    doubt "^0.29.0"
 
 rc@^1.1.7:
   version "1.2.1"
@@ -2375,12 +2374,6 @@ string_decoder@~1.0.3:
   dependencies:
     safe-buffer "~5.1.0"
 
-stringe@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/stringe/-/stringe-0.4.0.tgz#15a7562633093f77b5e65903ddf89d6537e48c24"
-  dependencies:
-    babel-runtime "^6.23.0"
-
 stringstream@~0.0.4:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/stringstream/-/stringstream-0.0.5.tgz#4e484cd4de5a0bbbee18e46307710a8a81621878"
@@ -2401,12 +2394,12 @@ strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
 
-stuffed@^0.24.0:
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/stuffed/-/stuffed-0.24.0.tgz#05cd98794885dccbb4d27dfbd06fa1c140ece3d5"
+stuffed@^0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/stuffed/-/stuffed-0.25.0.tgz#1c338aa0c4da4af7fe40e429085a000306945039"
   dependencies:
     babel-runtime "^6.23.0"
-    doubt "^0.28.0"
+    doubt "^0.29.0"
     kount "^0.11.0"
     truly "^0.19.0"
 
@@ -2610,12 +2603,12 @@ which-module@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/which-module/-/which-module-1.0.0.tgz#bba63ca861948994ff307736089e3b96026c2a4f"
 
-wichevr@^0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/wichevr/-/wichevr-0.11.0.tgz#9b6d984945f4db85aa40f875f0a9dd01cda21e3f"
+wichevr@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/wichevr/-/wichevr-0.12.0.tgz#d943d697efe9034758df1c6a8db212f9569bde30"
   dependencies:
     babel-runtime "^6.23.0"
-    raze "^0.31.0"
+    raze "^0.32.0"
     truly "^0.19.0"
 
 wide-align@^1.1.0:
