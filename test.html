@@ -1,71 +1,28 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>truu unit test</title>
+		<meta charset="utf-8">
 
-		<link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.3.2.css">
+		<title>test:truu</title>
 
-		<script type="application/javascript" src="https://code.jquery.com/qunit/qunit-2.3.2.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css"/>
 
 		<script type="application/javascript" src="./truu.deploy.js"></script>
 	</head>
 
 	<body>
-		<div id="qunit"></div>
+		<div id="mocha"></div>
 
-		<div id="qunit-fixture"></div>
+		<script type="application/javascript" src="https://unpkg.com/mocha/mocha.js"></script>
 
 		<script type="application/javascript">
-			QUnit.test( "truu unit test", function( assert ) {
+			mocha.setup( "bdd" );
+		</script>
 
-				assert.equal( truu( false ), true, "should be equal to true" );
+		<script type="application/javascript" src="./test.deploy.js"></script>
 
-				assert.equal( truu( "hello" ), true, "should be equal to true" );
-
-				assert.equal( truu( { "name": "simple" } ), true, "should be equal to true" );
-
-				assert.equal( truu( [ 1, 2, 3 ] ), true, "should be equal to true" );
-
-				assert.equal( truu( 0 ), true, "should return true" );
-
-				assert.equal( truu( Symbol.for( "hello" ) ), true, "should return true" );
-
-				assert.equal( truu( Error ), true, "should return true" );
-
-				assert.equal( truu( function hello( ){ } ), true, "should be equal to true" );
-
-				assert.equal( truu( Infinity ), true, "should be equal to true" );
-
-				assert.equal( truu( Array ), true, "should be equal to true" );
-
-				assert.equal( truu( ( ) => { } ), true, "should return true" );
-
-				assert.equal( truu( ( ( ) => arguments )( ) ), true, "should return true" );
-
-				assert.equal( truu( ( entity ) => ( typeof entity == "string" ) ), true, "should return true" );
-
-				class ClassA{
-					constructor( ){ }
-					method( ){ return "hello"; }
-				}
-
-				let testA = new ClassA( );
-
-				assert.equal( truu( testA ), false, "should return false" );
-
-				assert.equal( truu( NaN ), false, "should be equal to false" );
-
-				assert.equal( truu( null ), false, "should be equal to false" );
-
-				assert.equal( truu( undefined ), false, "should be equal to false" );
-
-				assert.equal( truu( "" ), false, "should be equal to false" );
-
-				assert.equal( truu( { } ), false, "should be equal to false" );
-
-				assert.equal( truu( [ ] ), false, "should be equal to false" );
-
-			} );
+		<script type="application/javascript">
+			mocha.run( );
 		</script>
 	</body>
 </html>
