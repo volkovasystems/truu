@@ -30,9 +30,9 @@
 	@module-configuration:
 		{
 			"package": "truu",
-			"path": "truu/truu.js",
-			"file": "truu.js",
-			"module": "truu",
+			"path": "truu/test.module.js",
+			"file": "test.module.js",
+			"module": "test",
 			"author": "Richeve S. Bebedor",
 			"eMail": "richeve.bebedor@gmail.com",
 			"contributors": [
