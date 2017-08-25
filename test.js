@@ -64,8 +64,124 @@ const truu = require( "./truu.js" );
 
 //: @server:
 
-
 describe( "truu", ( ) => {
+
+	describe( "`truu( false )`", ( ) => {
+		it( "should be equal to true", ( ) => {
+			assert.equal( truu( false ), true );
+		} );
+	} );
+
+	describe( "`truu( 'hello' )`", ( ) => {
+		it( "should be equal to true", ( ) => {
+			assert.equal( truu( "hello" ), true );
+		} );
+	} );
+
+	describe( "`truu( { 'name': 'simple' } )`", ( ) => {
+		it( "should be equal to true", ( ) => {
+			assert.equal( truu( { "name": "simple" } ), true );
+		} );
+	} );
+
+	describe( "`truu( [ 1, 2, 3 ] )`", ( ) => {
+		it( "should be equal to true", ( ) => {
+			assert.equal( truu( [ 1, 2, 3 ] ), true );
+		} );
+	} );
+
+	describe( "`truu( 0 )`", ( ) => {
+		it( "should be equal to true", ( ) => {
+			assert.equal( truu( 0 ), true );
+		} );
+	} );
+
+	describe( "`truu( Symbol.for( 'hello' ) )`", ( ) => {
+		it( "should be equal to true", ( ) => {
+			assert.equal( truu( Symbol.for( "hello" ) ), true );
+		} );
+	} );
+
+	describe( "`truu( Error )`", ( ) => {
+		it( "should be equal to true", ( ) => {
+			assert.equal( truu( Error ), true );
+		} );
+	} );
+
+	describe( "`truu( function hello( ){ } )`", ( ) => {
+		it( "should be equal to true", ( ) => {
+			assert.equal( truu( function hello( ){ } ), true );
+		} );
+	} );
+
+	describe( "`truu( Infinity )`", ( ) => {
+		it( "should be equal to true", ( ) => {
+			assert.equal( truu( Infinity ), true );
+		} );
+	} );
+
+	describe( "`truu( ( ) => { } )`", ( ) => {
+		it( "should be equal to true", ( ) => {
+			assert.equal( truu( ( ) => { } ), true );
+		} );
+	} );
+
+	describe( "`truu( ( entity ) => ( typeof entity == 'string' ) )`", ( ) => {
+		it( "should be equal to true", ( ) => {
+			assert.equal( truu( ( entity ) => ( typeof entity == "string" ) ), true );
+		} );
+	} );
+
+	describe( "`truu with instance of class named 'ClassA'`", ( ) => {
+		it( "should be equal to false", ( ) => {
+
+			class ClassA{
+				constructor( ){ }
+				method( ){ return "hello"; }
+			}
+
+			let testA = new ClassA( );
+
+			assert.equal( truu( testA ), false );
+
+		} );
+	} );
+
+	describe( "`truu( NaN )`", ( ) => {
+		it( "should be equal to false", ( ) => {
+			assert.equal( truu( NaN ), false );
+		} );
+	} );
+
+	describe( "`truu( null )`", ( ) => {
+		it( "should be equal to false", ( ) => {
+			assert.equal( truu( null ), false );
+		} );
+	} );
+
+	describe( "`truu( undefined )`", ( ) => {
+		it( "should be equal to false", ( ) => {
+			assert.equal( truu( undefined ), false );
+		} );
+	} );
+
+	describe( "`truu( '' )`", ( ) => {
+		it( "should be equal to false", ( ) => {
+			assert.equal( truu( "" ), false );
+		} );
+	} );
+
+	describe( "`truu( { } )`", ( ) => {
+		it( "should be equal to false", ( ) => {
+			assert.equal( truu( { } ), false );
+		} );
+	} );
+
+	describe( "`truu( [ ] )`", ( ) => {
+		it( "should be equal to false", ( ) => {
+			assert.equal( truu( [ ] ), false );
+		} );
+	} );
 
 } );
 
